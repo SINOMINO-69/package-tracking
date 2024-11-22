@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Kazi tour Retour </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نظام تتبع الطرود</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>نظام تتبع الطرود</h1>
+  <div class="form-container">
+    <textarea id="trackingNumbers" placeholder="أدخل أرقام التتبع (رقم في كل سطر)"></textarea>
+    <input type="date" id="arrivalDate">
+    <input type="number" id="stayDuration" placeholder="مدة البقاء (بالأيام)">
+    <button id="addPackages">إضافة الطرود</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>رقم التتبع</th>
+        <th>تاريخ الوصول</th>
+        <th>مدة البقاء</th>
+        <th>تاريخ الرجوع</th>
+        <th>الحالة</th>
+        <th>إجراءات</th>
+      </tr>
+    </thead>
+    <tbody id="packageTable">
+      <!-- يتم إضافة الطرود هنا ديناميكيًا -->
+    </tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
